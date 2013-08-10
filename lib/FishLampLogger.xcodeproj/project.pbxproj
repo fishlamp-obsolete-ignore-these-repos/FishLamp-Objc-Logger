@@ -1,0 +1,837 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		27E9CF94175E4A3600BD6205 /* FishLampLogger */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 27E9CF97175E4A3600BD6205 /* Build configuration list for PBXAggregateTarget "FishLampLogger" */;
+			buildPhases = (
+				2747DCAE17B6EC13009630D1 /* ShellScript */,
+			);
+			dependencies = (
+				27E9CF99175E4A4200BD6205 /* PBXTargetDependency */,
+				27E9CF9B175E4A4200BD6205 /* PBXTargetDependency */,
+				27E9CF9D175E4A4200BD6205 /* PBXTargetDependency */,
+				27E9CF9F175E4A4200BD6205 /* PBXTargetDependency */,
+				27E9CFA1175E4A4200BD6205 /* PBXTargetDependency */,
+			);
+			name = FishLampLogger;
+			productName = FishLampLogger;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		2747DEF417B6FC92009630D1 /* FLConsoleLogSink.h in Headers */ = {isa = PBXBuildFile; fileRef = 2747DEE617B6FC92009630D1 /* FLConsoleLogSink.h */; };
+		2747DEF517B6FC92009630D1 /* FLConsoleLogSink.h in Headers */ = {isa = PBXBuildFile; fileRef = 2747DEE617B6FC92009630D1 /* FLConsoleLogSink.h */; };
+		2747DEF617B6FC92009630D1 /* FLConsoleLogSink.h in Headers */ = {isa = PBXBuildFile; fileRef = 2747DEE617B6FC92009630D1 /* FLConsoleLogSink.h */; };
+		2747DEF717B6FC92009630D1 /* FLConsoleLogSink.h in Headers */ = {isa = PBXBuildFile; fileRef = 2747DEE617B6FC92009630D1 /* FLConsoleLogSink.h */; };
+		2747DEF817B6FC92009630D1 /* FLConsoleLogSink.m in Sources */ = {isa = PBXBuildFile; fileRef = 2747DEE717B6FC92009630D1 /* FLConsoleLogSink.m */; };
+		2747DEF917B6FC92009630D1 /* FLConsoleLogSink.m in Sources */ = {isa = PBXBuildFile; fileRef = 2747DEE717B6FC92009630D1 /* FLConsoleLogSink.m */; };
+		2747DEFA17B6FC92009630D1 /* FLConsoleLogSink.m in Sources */ = {isa = PBXBuildFile; fileRef = 2747DEE717B6FC92009630D1 /* FLConsoleLogSink.m */; };
+		2747DEFB17B6FC92009630D1 /* FLConsoleLogSink.m in Sources */ = {isa = PBXBuildFile; fileRef = 2747DEE717B6FC92009630D1 /* FLConsoleLogSink.m */; };
+		2747DEFC17B6FC92009630D1 /* FLConsoleLogSink.m in Sources */ = {isa = PBXBuildFile; fileRef = 2747DEE717B6FC92009630D1 /* FLConsoleLogSink.m */; };
+		2747DEFD17B6FC92009630D1 /* FLLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 2747DEE817B6FC92009630D1 /* FLLog.h */; };
+		2747DEFE17B6FC92009630D1 /* FLLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 2747DEE817B6FC92009630D1 /* FLLog.h */; };
+		2747DEFF17B6FC92009630D1 /* FLLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 2747DEE817B6FC92009630D1 /* FLLog.h */; };
+		2747DF0017B6FC92009630D1 /* FLLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 2747DEE817B6FC92009630D1 /* FLLog.h */; };
+		2747DF0117B6FC92009630D1 /* FLLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 2747DEE917B6FC92009630D1 /* FLLog.m */; };
+		2747DF0217B6FC92009630D1 /* FLLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 2747DEE917B6FC92009630D1 /* FLLog.m */; };
+		2747DF0317B6FC92009630D1 /* FLLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 2747DEE917B6FC92009630D1 /* FLLog.m */; };
+		2747DF0417B6FC92009630D1 /* FLLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 2747DEE917B6FC92009630D1 /* FLLog.m */; };
+		2747DF0517B6FC92009630D1 /* FLLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 2747DEE917B6FC92009630D1 /* FLLog.m */; };
+		2747DF0617B6FC92009630D1 /* FLLogEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 2747DEEA17B6FC92009630D1 /* FLLogEntry.h */; };
+		2747DF0717B6FC92009630D1 /* FLLogEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 2747DEEA17B6FC92009630D1 /* FLLogEntry.h */; };
+		2747DF0817B6FC92009630D1 /* FLLogEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 2747DEEA17B6FC92009630D1 /* FLLogEntry.h */; };
+		2747DF0917B6FC92009630D1 /* FLLogEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 2747DEEA17B6FC92009630D1 /* FLLogEntry.h */; };
+		2747DF0A17B6FC92009630D1 /* FLLogEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 2747DEEB17B6FC92009630D1 /* FLLogEntry.m */; };
+		2747DF0B17B6FC92009630D1 /* FLLogEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 2747DEEB17B6FC92009630D1 /* FLLogEntry.m */; };
+		2747DF0C17B6FC92009630D1 /* FLLogEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 2747DEEB17B6FC92009630D1 /* FLLogEntry.m */; };
+		2747DF0D17B6FC92009630D1 /* FLLogEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 2747DEEB17B6FC92009630D1 /* FLLogEntry.m */; };
+		2747DF0E17B6FC92009630D1 /* FLLogEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 2747DEEB17B6FC92009630D1 /* FLLogEntry.m */; };
+		2747DF0F17B6FC92009630D1 /* FLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 2747DEEC17B6FC92009630D1 /* FLLogger.h */; };
+		2747DF1017B6FC92009630D1 /* FLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 2747DEEC17B6FC92009630D1 /* FLLogger.h */; };
+		2747DF1117B6FC92009630D1 /* FLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 2747DEEC17B6FC92009630D1 /* FLLogger.h */; };
+		2747DF1217B6FC92009630D1 /* FLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 2747DEEC17B6FC92009630D1 /* FLLogger.h */; };
+		2747DF1317B6FC92009630D1 /* FLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2747DEED17B6FC92009630D1 /* FLLogger.m */; };
+		2747DF1417B6FC92009630D1 /* FLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2747DEED17B6FC92009630D1 /* FLLogger.m */; };
+		2747DF1517B6FC92009630D1 /* FLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2747DEED17B6FC92009630D1 /* FLLogger.m */; };
+		2747DF1617B6FC92009630D1 /* FLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2747DEED17B6FC92009630D1 /* FLLogger.m */; };
+		2747DF1717B6FC92009630D1 /* FLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2747DEED17B6FC92009630D1 /* FLLogger.m */; };
+		2747DF1817B6FC92009630D1 /* FLLogSink.h in Headers */ = {isa = PBXBuildFile; fileRef = 2747DEEE17B6FC92009630D1 /* FLLogSink.h */; };
+		2747DF1917B6FC92009630D1 /* FLLogSink.h in Headers */ = {isa = PBXBuildFile; fileRef = 2747DEEE17B6FC92009630D1 /* FLLogSink.h */; };
+		2747DF1A17B6FC92009630D1 /* FLLogSink.h in Headers */ = {isa = PBXBuildFile; fileRef = 2747DEEE17B6FC92009630D1 /* FLLogSink.h */; };
+		2747DF1B17B6FC92009630D1 /* FLLogSink.h in Headers */ = {isa = PBXBuildFile; fileRef = 2747DEEE17B6FC92009630D1 /* FLLogSink.h */; };
+		2747DF1C17B6FC92009630D1 /* FLLogSink.m in Sources */ = {isa = PBXBuildFile; fileRef = 2747DEEF17B6FC92009630D1 /* FLLogSink.m */; };
+		2747DF1D17B6FC92009630D1 /* FLLogSink.m in Sources */ = {isa = PBXBuildFile; fileRef = 2747DEEF17B6FC92009630D1 /* FLLogSink.m */; };
+		2747DF1E17B6FC92009630D1 /* FLLogSink.m in Sources */ = {isa = PBXBuildFile; fileRef = 2747DEEF17B6FC92009630D1 /* FLLogSink.m */; };
+		2747DF1F17B6FC92009630D1 /* FLLogSink.m in Sources */ = {isa = PBXBuildFile; fileRef = 2747DEEF17B6FC92009630D1 /* FLLogSink.m */; };
+		2747DF2017B6FC92009630D1 /* FLLogSink.m in Sources */ = {isa = PBXBuildFile; fileRef = 2747DEEF17B6FC92009630D1 /* FLLogSink.m */; };
+		2747DF2117B6FC92009630D1 /* FLPrintf.h in Headers */ = {isa = PBXBuildFile; fileRef = 2747DEF017B6FC92009630D1 /* FLPrintf.h */; };
+		2747DF2217B6FC92009630D1 /* FLPrintf.h in Headers */ = {isa = PBXBuildFile; fileRef = 2747DEF017B6FC92009630D1 /* FLPrintf.h */; };
+		2747DF2317B6FC92009630D1 /* FLPrintf.h in Headers */ = {isa = PBXBuildFile; fileRef = 2747DEF017B6FC92009630D1 /* FLPrintf.h */; };
+		2747DF2417B6FC92009630D1 /* FLPrintf.h in Headers */ = {isa = PBXBuildFile; fileRef = 2747DEF017B6FC92009630D1 /* FLPrintf.h */; };
+		2747DF2517B6FC92009630D1 /* FLPrintf.m in Sources */ = {isa = PBXBuildFile; fileRef = 2747DEF117B6FC92009630D1 /* FLPrintf.m */; };
+		2747DF2617B6FC92009630D1 /* FLPrintf.m in Sources */ = {isa = PBXBuildFile; fileRef = 2747DEF117B6FC92009630D1 /* FLPrintf.m */; };
+		2747DF2717B6FC92009630D1 /* FLPrintf.m in Sources */ = {isa = PBXBuildFile; fileRef = 2747DEF117B6FC92009630D1 /* FLPrintf.m */; };
+		2747DF2817B6FC92009630D1 /* FLPrintf.m in Sources */ = {isa = PBXBuildFile; fileRef = 2747DEF117B6FC92009630D1 /* FLPrintf.m */; };
+		2747DF2917B6FC92009630D1 /* FLPrintf.m in Sources */ = {isa = PBXBuildFile; fileRef = 2747DEF117B6FC92009630D1 /* FLPrintf.m */; };
+		2747DF2A17B6FC92009630D1 /* FLTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = 2747DEF217B6FC92009630D1 /* FLTrace.h */; };
+		2747DF2B17B6FC92009630D1 /* FLTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = 2747DEF217B6FC92009630D1 /* FLTrace.h */; };
+		2747DF2C17B6FC92009630D1 /* FLTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = 2747DEF217B6FC92009630D1 /* FLTrace.h */; };
+		2747DF2D17B6FC92009630D1 /* FLTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = 2747DEF217B6FC92009630D1 /* FLTrace.h */; };
+		2747DF2E17B6FC92009630D1 /* FLTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = 2747DEF317B6FC92009630D1 /* FLTrace.m */; };
+		2747DF2F17B6FC92009630D1 /* FLTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = 2747DEF317B6FC92009630D1 /* FLTrace.m */; };
+		2747DF3017B6FC92009630D1 /* FLTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = 2747DEF317B6FC92009630D1 /* FLTrace.m */; };
+		2747DF3117B6FC92009630D1 /* FLTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = 2747DEF317B6FC92009630D1 /* FLTrace.m */; };
+		2747DF3217B6FC92009630D1 /* FLTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = 2747DEF317B6FC92009630D1 /* FLTrace.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27E9CF98175E4A4200BD6205 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27A43A7315CDCC1B001CB13E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27A43AB315CDCC89001CB13E;
+			remoteInfo = "FishLampLogger-iOS-ARC";
+		};
+		27E9CF9A175E4A4200BD6205 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27A43A7315CDCC1B001CB13E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27048B70161CB58600C38ADA;
+			remoteInfo = "FishLampLogger-OSX-32-MRC";
+		};
+		27E9CF9C175E4A4200BD6205 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27A43A7315CDCC1B001CB13E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27A43AC315CDCCCB001CB13E;
+			remoteInfo = "FishLampLogger-OSX-64-MRC";
+		};
+		27E9CF9E175E4A4200BD6205 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27A43A7315CDCC1B001CB13E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 273148B9165328400027850D;
+			remoteInfo = "FishLampLogger-OSX-64-ARC";
+		};
+		27E9CFA0175E4A4200BD6205 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27A43A7315CDCC1B001CB13E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27CBBE2916768BA600753D0A;
+			remoteInfo = "FishLampLogger-OSX-Universal-MRC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27048EF0161CB58600C38ADA /* libFishLampLogger-OSX-32-MRC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libFishLampLogger-OSX-32-MRC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27314C79165328400027850D /* libFishLampLogger-OSX-64-ARC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libFishLampLogger-OSX-64-ARC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2747DEE617B6FC92009630D1 /* FLConsoleLogSink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLConsoleLogSink.h; sourceTree = "<group>"; };
+		2747DEE717B6FC92009630D1 /* FLConsoleLogSink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLConsoleLogSink.m; sourceTree = "<group>"; };
+		2747DEE817B6FC92009630D1 /* FLLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLLog.h; sourceTree = "<group>"; };
+		2747DEE917B6FC92009630D1 /* FLLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLLog.m; sourceTree = "<group>"; };
+		2747DEEA17B6FC92009630D1 /* FLLogEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLLogEntry.h; sourceTree = "<group>"; };
+		2747DEEB17B6FC92009630D1 /* FLLogEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLLogEntry.m; sourceTree = "<group>"; };
+		2747DEEC17B6FC92009630D1 /* FLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLLogger.h; sourceTree = "<group>"; };
+		2747DEED17B6FC92009630D1 /* FLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLLogger.m; sourceTree = "<group>"; };
+		2747DEEE17B6FC92009630D1 /* FLLogSink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLLogSink.h; sourceTree = "<group>"; };
+		2747DEEF17B6FC92009630D1 /* FLLogSink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLLogSink.m; sourceTree = "<group>"; };
+		2747DEF017B6FC92009630D1 /* FLPrintf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLPrintf.h; sourceTree = "<group>"; };
+		2747DEF117B6FC92009630D1 /* FLPrintf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLPrintf.m; sourceTree = "<group>"; };
+		2747DEF217B6FC92009630D1 /* FLTrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLTrace.h; sourceTree = "<group>"; };
+		2747DEF317B6FC92009630D1 /* FLTrace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLTrace.m; sourceTree = "<group>"; };
+		2747DF3417B6FCD8009630D1 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		2747DF3617B6FCD8009630D1 /* FishLampIncludedConfig-ARC.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "FishLampIncludedConfig-ARC.xcconfig"; sourceTree = "<group>"; };
+		2747DF3717B6FCD8009630D1 /* FishLampIncludedConfig-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "FishLampIncludedConfig-iOS.xcconfig"; sourceTree = "<group>"; };
+		2747DF3817B6FCD8009630D1 /* FishLampIncludedConfig-MRC.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "FishLampIncludedConfig-MRC.xcconfig"; sourceTree = "<group>"; };
+		2747DF3917B6FCD8009630D1 /* FishLampIncludedConfig-OSX-32.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "FishLampIncludedConfig-OSX-32.xcconfig"; sourceTree = "<group>"; };
+		2747DF3A17B6FCD8009630D1 /* FishLampIncludedConfig-OSX-64.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "FishLampIncludedConfig-OSX-64.xcconfig"; sourceTree = "<group>"; };
+		2747DF3B17B6FCD8009630D1 /* FishLampIncludedConfig-OSX-Universal.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "FishLampIncludedConfig-OSX-Universal.xcconfig"; sourceTree = "<group>"; };
+		2747DF3C17B6FCD8009630D1 /* FishLampIncludedConfig-Preprocessor.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "FishLampIncludedConfig-Preprocessor.xcconfig"; sourceTree = "<group>"; };
+		2747DF3D17B6FCD8009630D1 /* FishLampIncludedConfig-Settings-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "FishLampIncludedConfig-Settings-Debug.xcconfig"; sourceTree = "<group>"; };
+		2747DF3E17B6FCD8009630D1 /* FishLampIncludedConfig-Settings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "FishLampIncludedConfig-Settings.xcconfig"; sourceTree = "<group>"; };
+		2747DF3F17B6FCD8009630D1 /* FishLampIncludedConfig-TestTool.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "FishLampIncludedConfig-TestTool.xcconfig"; sourceTree = "<group>"; };
+		2747DF4017B6FCD8009630D1 /* FishLampIncludedConfig-Tool.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "FishLampIncludedConfig-Tool.xcconfig"; sourceTree = "<group>"; };
+		2747DF4217B6FCD8009630D1 /* SharedTargetSettings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = SharedTargetSettings.xcconfig; sourceTree = "<group>"; };
+		2747DF4317B6FCD8009630D1 /* TargetSettings-OSX-32-MRC.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "TargetSettings-OSX-32-MRC.xcconfig"; sourceTree = "<group>"; };
+		2747DF4417B6FCD8009630D1 /* TargetSettings-OSX-64-ARC.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "TargetSettings-OSX-64-ARC.xcconfig"; sourceTree = "<group>"; };
+		2747DF4517B6FCD8009630D1 /* TargetSettings-OSX-64-MRC.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "TargetSettings-OSX-64-MRC.xcconfig"; sourceTree = "<group>"; };
+		2747DF4617B6FCD8009630D1 /* TargetSettings-OSX-iOS-ARC.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "TargetSettings-OSX-iOS-ARC.xcconfig"; sourceTree = "<group>"; };
+		2747DF4717B6FCD8009630D1 /* TargetSettings-OSX-Universal-MRC.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "TargetSettings-OSX-Universal-MRC.xcconfig"; sourceTree = "<group>"; };
+		2747DF4817B6FCD8009630D1 /* install-headers.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "install-headers.sh"; sourceTree = "<group>"; };
+		2747DF4917B6FCD8009630D1 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2747DF4B17B6FCD8009630D1 /* FishLampProjectSettingsDebug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = FishLampProjectSettingsDebug.xcconfig; sourceTree = "<group>"; };
+		2747DF4C17B6FCD8009630D1 /* FishLampProjectSettingsRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = FishLampProjectSettingsRelease.xcconfig; sourceTree = "<group>"; };
+		2747DF4D17B6FCD8009630D1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		2747DF4F17B6FCD8009630D1 /* FishLampTargetSettings-iOS-ARC.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "FishLampTargetSettings-iOS-ARC.xcconfig"; sourceTree = "<group>"; };
+		2747DF5017B6FCD8009630D1 /* FishLampTargetSettings-OSX-32-MRC.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "FishLampTargetSettings-OSX-32-MRC.xcconfig"; sourceTree = "<group>"; };
+		2747DF5117B6FCD8009630D1 /* FishLampTargetSettings-OSX-64-ARC.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "FishLampTargetSettings-OSX-64-ARC.xcconfig"; sourceTree = "<group>"; };
+		2747DF5217B6FCD8009630D1 /* FishLampTargetSettings-OSX-64-MRC.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "FishLampTargetSettings-OSX-64-MRC.xcconfig"; sourceTree = "<group>"; };
+		2747DF5317B6FCD8009630D1 /* FishLampTargetSettings-OSX-Universal-MRC.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "FishLampTargetSettings-OSX-Universal-MRC.xcconfig"; sourceTree = "<group>"; };
+		27A43AB415CDCC89001CB13E /* libFishLampLogger-iOS-ARC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libFishLampLogger-iOS-ARC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27A43AC415CDCCCB001CB13E /* libFishLampLogger-OSX-64-MRC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libFishLampLogger-OSX-64-MRC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27C62DCC170B537B0093F260 /* FishLampLoggerTargetSettings-OSX-32-MRC.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "FishLampLoggerTargetSettings-OSX-32-MRC.xcconfig"; sourceTree = "<group>"; };
+		27C62DCD170B537B0093F260 /* SharedTargetSettings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = SharedTargetSettings.xcconfig; sourceTree = "<group>"; };
+		27C62DCE170B537B0093F260 /* FishLampLoggerTargetSettings-OSX-Universal-MRC.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "FishLampLoggerTargetSettings-OSX-Universal-MRC.xcconfig"; sourceTree = "<group>"; };
+		27C62DCF170B537B0093F260 /* FishLampLoggerTargetSettings-OSX-64-ARC.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "FishLampLoggerTargetSettings-OSX-64-ARC.xcconfig"; sourceTree = "<group>"; };
+		27C62DD0170B537B0093F260 /* FishLampLoggerTargetSettings-OSX-64-MRC.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "FishLampLoggerTargetSettings-OSX-64-MRC.xcconfig"; sourceTree = "<group>"; };
+		27C62DD1170B537B0093F260 /* FishLampLoggerTargetSettings-OSX-iOS-ARC.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "FishLampLoggerTargetSettings-OSX-iOS-ARC.xcconfig"; sourceTree = "<group>"; };
+		27C7A8A717B6CF2800A83CE2 /* ProjectSettingsDebug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ProjectSettingsDebug.xcconfig; sourceTree = "<group>"; };
+		27C7A8A817B6CF2800A83CE2 /* ProjectSettingsRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ProjectSettingsRelease.xcconfig; sourceTree = "<group>"; };
+		27CBC1F416768BA600753D0A /* libFishLampLogger-OSX-Universal-MRC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libFishLampLogger-OSX-Universal-MRC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27048D0F161CB58600C38ADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27314A76165328400027850D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27A43AB115CDCC89001CB13E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27A43AC115CDCCCB001CB13E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27CBBFEC16768BA600753D0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2731477B1652D2D30027850D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27C7A8A717B6CF2800A83CE2 /* ProjectSettingsDebug.xcconfig */,
+				27C7A8A817B6CF2800A83CE2 /* ProjectSettingsRelease.xcconfig */,
+				27C62DCB170B537B0093F260 /* FishLampLogger */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2747DEE517B6FC92009630D1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2747DEE617B6FC92009630D1 /* FLConsoleLogSink.h */,
+				2747DEE717B6FC92009630D1 /* FLConsoleLogSink.m */,
+				2747DEE817B6FC92009630D1 /* FLLog.h */,
+				2747DEE917B6FC92009630D1 /* FLLog.m */,
+				2747DEEA17B6FC92009630D1 /* FLLogEntry.h */,
+				2747DEEB17B6FC92009630D1 /* FLLogEntry.m */,
+				2747DEEC17B6FC92009630D1 /* FLLogger.h */,
+				2747DEED17B6FC92009630D1 /* FLLogger.m */,
+				2747DEEE17B6FC92009630D1 /* FLLogSink.h */,
+				2747DEEF17B6FC92009630D1 /* FLLogSink.m */,
+				2747DEF017B6FC92009630D1 /* FLPrintf.h */,
+				2747DEF117B6FC92009630D1 /* FLPrintf.m */,
+				2747DEF217B6FC92009630D1 /* FLTrace.h */,
+				2747DEF317B6FC92009630D1 /* FLTrace.m */,
+			);
+			name = Classes;
+			path = ../Classes;
+			sourceTree = "<group>";
+		};
+		2747DF3317B6FCD8009630D1 /* FishLampXcodeConfigs */ = {
+			isa = PBXGroup;
+			children = (
+				2747DF3417B6FCD8009630D1 /* .gitignore */,
+				2747DF3517B6FCD8009630D1 /* Configs */,
+				2747DF4117B6FCD8009630D1 /* Examples */,
+				2747DF4817B6FCD8009630D1 /* install-headers.sh */,
+				2747DF4917B6FCD8009630D1 /* LICENSE */,
+				2747DF4A17B6FCD8009630D1 /* ProjectSettings */,
+				2747DF4D17B6FCD8009630D1 /* README.md */,
+				2747DF4E17B6FCD8009630D1 /* TargetSettings */,
+			);
+			path = FishLampXcodeConfigs;
+			sourceTree = "<group>";
+		};
+		2747DF3517B6FCD8009630D1 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				2747DF3617B6FCD8009630D1 /* FishLampIncludedConfig-ARC.xcconfig */,
+				2747DF3717B6FCD8009630D1 /* FishLampIncludedConfig-iOS.xcconfig */,
+				2747DF3817B6FCD8009630D1 /* FishLampIncludedConfig-MRC.xcconfig */,
+				2747DF3917B6FCD8009630D1 /* FishLampIncludedConfig-OSX-32.xcconfig */,
+				2747DF3A17B6FCD8009630D1 /* FishLampIncludedConfig-OSX-64.xcconfig */,
+				2747DF3B17B6FCD8009630D1 /* FishLampIncludedConfig-OSX-Universal.xcconfig */,
+				2747DF3C17B6FCD8009630D1 /* FishLampIncludedConfig-Preprocessor.xcconfig */,
+				2747DF3D17B6FCD8009630D1 /* FishLampIncludedConfig-Settings-Debug.xcconfig */,
+				2747DF3E17B6FCD8009630D1 /* FishLampIncludedConfig-Settings.xcconfig */,
+				2747DF3F17B6FCD8009630D1 /* FishLampIncludedConfig-TestTool.xcconfig */,
+				2747DF4017B6FCD8009630D1 /* FishLampIncludedConfig-Tool.xcconfig */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		2747DF4117B6FCD8009630D1 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				2747DF4217B6FCD8009630D1 /* SharedTargetSettings.xcconfig */,
+				2747DF4317B6FCD8009630D1 /* TargetSettings-OSX-32-MRC.xcconfig */,
+				2747DF4417B6FCD8009630D1 /* TargetSettings-OSX-64-ARC.xcconfig */,
+				2747DF4517B6FCD8009630D1 /* TargetSettings-OSX-64-MRC.xcconfig */,
+				2747DF4617B6FCD8009630D1 /* TargetSettings-OSX-iOS-ARC.xcconfig */,
+				2747DF4717B6FCD8009630D1 /* TargetSettings-OSX-Universal-MRC.xcconfig */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+		2747DF4A17B6FCD8009630D1 /* ProjectSettings */ = {
+			isa = PBXGroup;
+			children = (
+				2747DF4B17B6FCD8009630D1 /* FishLampProjectSettingsDebug.xcconfig */,
+				2747DF4C17B6FCD8009630D1 /* FishLampProjectSettingsRelease.xcconfig */,
+			);
+			path = ProjectSettings;
+			sourceTree = "<group>";
+		};
+		2747DF4E17B6FCD8009630D1 /* TargetSettings */ = {
+			isa = PBXGroup;
+			children = (
+				2747DF4F17B6FCD8009630D1 /* FishLampTargetSettings-iOS-ARC.xcconfig */,
+				2747DF5017B6FCD8009630D1 /* FishLampTargetSettings-OSX-32-MRC.xcconfig */,
+				2747DF5117B6FCD8009630D1 /* FishLampTargetSettings-OSX-64-ARC.xcconfig */,
+				2747DF5217B6FCD8009630D1 /* FishLampTargetSettings-OSX-64-MRC.xcconfig */,
+				2747DF5317B6FCD8009630D1 /* FishLampTargetSettings-OSX-Universal-MRC.xcconfig */,
+			);
+			path = TargetSettings;
+			sourceTree = "<group>";
+		};
+		27A43A7115CDCC1B001CB13E = {
+			isa = PBXGroup;
+			children = (
+				2747DF3317B6FCD8009630D1 /* FishLampXcodeConfigs */,
+				2747DEE517B6FC92009630D1 /* Classes */,
+				2731477B1652D2D30027850D /* Supporting Files */,
+				27A43A7E15CDCC1B001CB13E /* Frameworks */,
+				27A43A7D15CDCC1B001CB13E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27A43A7D15CDCC1B001CB13E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27A43AB415CDCC89001CB13E /* libFishLampLogger-iOS-ARC.a */,
+				27A43AC415CDCCCB001CB13E /* libFishLampLogger-OSX-64-MRC.a */,
+				27048EF0161CB58600C38ADA /* libFishLampLogger-OSX-32-MRC.a */,
+				27314C79165328400027850D /* libFishLampLogger-OSX-64-ARC.a */,
+				27CBC1F416768BA600753D0A /* libFishLampLogger-OSX-Universal-MRC.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27A43A7E15CDCC1B001CB13E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27C62DCB170B537B0093F260 /* FishLampLogger */ = {
+			isa = PBXGroup;
+			children = (
+				27C62DCC170B537B0093F260 /* FishLampLoggerTargetSettings-OSX-32-MRC.xcconfig */,
+				27C62DCD170B537B0093F260 /* SharedTargetSettings.xcconfig */,
+				27C62DCE170B537B0093F260 /* FishLampLoggerTargetSettings-OSX-Universal-MRC.xcconfig */,
+				27C62DCF170B537B0093F260 /* FishLampLoggerTargetSettings-OSX-64-ARC.xcconfig */,
+				27C62DD0170B537B0093F260 /* FishLampLoggerTargetSettings-OSX-64-MRC.xcconfig */,
+				27C62DD1170B537B0093F260 /* FishLampLoggerTargetSettings-OSX-iOS-ARC.xcconfig */,
+			);
+			path = FishLampLogger;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		27048D11161CB58600C38ADA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2747DEF417B6FC92009630D1 /* FLConsoleLogSink.h in Headers */,
+				2747DF2A17B6FC92009630D1 /* FLTrace.h in Headers */,
+				2747DF1817B6FC92009630D1 /* FLLogSink.h in Headers */,
+				2747DEFD17B6FC92009630D1 /* FLLog.h in Headers */,
+				2747DF2117B6FC92009630D1 /* FLPrintf.h in Headers */,
+				2747DF0F17B6FC92009630D1 /* FLLogger.h in Headers */,
+				2747DF0617B6FC92009630D1 /* FLLogEntry.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27314A78165328400027850D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2747DEF617B6FC92009630D1 /* FLConsoleLogSink.h in Headers */,
+				2747DF2C17B6FC92009630D1 /* FLTrace.h in Headers */,
+				2747DF1A17B6FC92009630D1 /* FLLogSink.h in Headers */,
+				2747DEFF17B6FC92009630D1 /* FLLog.h in Headers */,
+				2747DF2317B6FC92009630D1 /* FLPrintf.h in Headers */,
+				2747DF1117B6FC92009630D1 /* FLLogger.h in Headers */,
+				2747DF0817B6FC92009630D1 /* FLLogEntry.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27A43AC215CDCCCB001CB13E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2747DEF517B6FC92009630D1 /* FLConsoleLogSink.h in Headers */,
+				2747DF2B17B6FC92009630D1 /* FLTrace.h in Headers */,
+				2747DF1917B6FC92009630D1 /* FLLogSink.h in Headers */,
+				2747DEFE17B6FC92009630D1 /* FLLog.h in Headers */,
+				2747DF2217B6FC92009630D1 /* FLPrintf.h in Headers */,
+				2747DF1017B6FC92009630D1 /* FLLogger.h in Headers */,
+				2747DF0717B6FC92009630D1 /* FLLogEntry.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27CBBFED16768BA600753D0A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2747DEF717B6FC92009630D1 /* FLConsoleLogSink.h in Headers */,
+				2747DF2D17B6FC92009630D1 /* FLTrace.h in Headers */,
+				2747DF1B17B6FC92009630D1 /* FLLogSink.h in Headers */,
+				2747DF0017B6FC92009630D1 /* FLLog.h in Headers */,
+				2747DF2417B6FC92009630D1 /* FLPrintf.h in Headers */,
+				2747DF1217B6FC92009630D1 /* FLLogger.h in Headers */,
+				2747DF0917B6FC92009630D1 /* FLLogEntry.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		27048B70161CB58600C38ADA /* FishLampLogger-OSX-32-MRC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27048EEB161CB58600C38ADA /* Build configuration list for PBXNativeTarget "FishLampLogger-OSX-32-MRC" */;
+			buildPhases = (
+				27048B71161CB58600C38ADA /* Sources */,
+				27048D0F161CB58600C38ADA /* Frameworks */,
+				27048D11161CB58600C38ADA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FishLampLogger-OSX-32-MRC";
+			productName = FishLampCocoaApp;
+			productReference = 27048EF0161CB58600C38ADA /* libFishLampLogger-OSX-32-MRC.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		273148B9165328400027850D /* FishLampLogger-OSX-64-ARC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27314C75165328400027850D /* Build configuration list for PBXNativeTarget "FishLampLogger-OSX-64-ARC" */;
+			buildPhases = (
+				273148BA165328400027850D /* Sources */,
+				27314A76165328400027850D /* Frameworks */,
+				27314A78165328400027850D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FishLampLogger-OSX-64-ARC";
+			productName = FishLampCommandLine;
+			productReference = 27314C79165328400027850D /* libFishLampLogger-OSX-64-ARC.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		27A43AB315CDCC89001CB13E /* FishLampLogger-iOS-ARC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27A43ABD15CDCC89001CB13E /* Build configuration list for PBXNativeTarget "FishLampLogger-iOS-ARC" */;
+			buildPhases = (
+				27A43AB015CDCC89001CB13E /* Sources */,
+				27A43AB115CDCC89001CB13E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FishLampLogger-iOS-ARC";
+			productName = FishLampiOS;
+			productReference = 27A43AB415CDCC89001CB13E /* libFishLampLogger-iOS-ARC.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		27A43AC315CDCCCB001CB13E /* FishLampLogger-OSX-64-MRC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27A43ACC15CDCCCB001CB13E /* Build configuration list for PBXNativeTarget "FishLampLogger-OSX-64-MRC" */;
+			buildPhases = (
+				27A43AC015CDCCCB001CB13E /* Sources */,
+				27A43AC115CDCCCB001CB13E /* Frameworks */,
+				27A43AC215CDCCCB001CB13E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FishLampLogger-OSX-64-MRC";
+			productName = FishLampCommandLine;
+			productReference = 27A43AC415CDCCCB001CB13E /* libFishLampLogger-OSX-64-MRC.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		27CBBE2916768BA600753D0A /* FishLampLogger-OSX-Universal-MRC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27CBC1F116768BA600753D0A /* Build configuration list for PBXNativeTarget "FishLampLogger-OSX-Universal-MRC" */;
+			buildPhases = (
+				27CBBE2A16768BA600753D0A /* Sources */,
+				27CBBFEC16768BA600753D0A /* Frameworks */,
+				27CBBFED16768BA600753D0A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FishLampLogger-OSX-Universal-MRC";
+			productName = FishLampCommandLine;
+			productReference = 27CBC1F416768BA600753D0A /* libFishLampLogger-OSX-Universal-MRC.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27A43A7315CDCC1B001CB13E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Mike Fullerton";
+			};
+			buildConfigurationList = 27A43A7615CDCC1B001CB13E /* Build configuration list for PBXProject "FishLampLogger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				English,
+			);
+			mainGroup = 27A43A7115CDCC1B001CB13E;
+			productRefGroup = 27A43A7D15CDCC1B001CB13E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27A43AB315CDCC89001CB13E /* FishLampLogger-iOS-ARC */,
+				27048B70161CB58600C38ADA /* FishLampLogger-OSX-32-MRC */,
+				27A43AC315CDCCCB001CB13E /* FishLampLogger-OSX-64-MRC */,
+				273148B9165328400027850D /* FishLampLogger-OSX-64-ARC */,
+				27CBBE2916768BA600753D0A /* FishLampLogger-OSX-Universal-MRC */,
+				27E9CF94175E4A3600BD6205 /* FishLampLogger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2747DCAE17B6EC13009630D1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"$PROJECT_DIR/FishLampXcodeConfigs/install-headers.sh\" \"$BUILT_PRODUCTS_DIR\" \"$PRODUCT_NAME\" \"$PROJECT_DIR\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27048B71161CB58600C38ADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2747DF0B17B6FC92009630D1 /* FLLogEntry.m in Sources */,
+				2747DF1D17B6FC92009630D1 /* FLLogSink.m in Sources */,
+				2747DF0217B6FC92009630D1 /* FLLog.m in Sources */,
+				2747DEF917B6FC92009630D1 /* FLConsoleLogSink.m in Sources */,
+				2747DF2F17B6FC92009630D1 /* FLTrace.m in Sources */,
+				2747DF2617B6FC92009630D1 /* FLPrintf.m in Sources */,
+				2747DF1417B6FC92009630D1 /* FLLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		273148BA165328400027850D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2747DF0D17B6FC92009630D1 /* FLLogEntry.m in Sources */,
+				2747DF1F17B6FC92009630D1 /* FLLogSink.m in Sources */,
+				2747DF0417B6FC92009630D1 /* FLLog.m in Sources */,
+				2747DEFB17B6FC92009630D1 /* FLConsoleLogSink.m in Sources */,
+				2747DF3117B6FC92009630D1 /* FLTrace.m in Sources */,
+				2747DF2817B6FC92009630D1 /* FLPrintf.m in Sources */,
+				2747DF1617B6FC92009630D1 /* FLLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27A43AB015CDCC89001CB13E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2747DF0A17B6FC92009630D1 /* FLLogEntry.m in Sources */,
+				2747DF1C17B6FC92009630D1 /* FLLogSink.m in Sources */,
+				2747DF0117B6FC92009630D1 /* FLLog.m in Sources */,
+				2747DEF817B6FC92009630D1 /* FLConsoleLogSink.m in Sources */,
+				2747DF2E17B6FC92009630D1 /* FLTrace.m in Sources */,
+				2747DF2517B6FC92009630D1 /* FLPrintf.m in Sources */,
+				2747DF1317B6FC92009630D1 /* FLLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27A43AC015CDCCCB001CB13E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2747DF0C17B6FC92009630D1 /* FLLogEntry.m in Sources */,
+				2747DF1E17B6FC92009630D1 /* FLLogSink.m in Sources */,
+				2747DF0317B6FC92009630D1 /* FLLog.m in Sources */,
+				2747DEFA17B6FC92009630D1 /* FLConsoleLogSink.m in Sources */,
+				2747DF3017B6FC92009630D1 /* FLTrace.m in Sources */,
+				2747DF2717B6FC92009630D1 /* FLPrintf.m in Sources */,
+				2747DF1517B6FC92009630D1 /* FLLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27CBBE2A16768BA600753D0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2747DF0E17B6FC92009630D1 /* FLLogEntry.m in Sources */,
+				2747DF2017B6FC92009630D1 /* FLLogSink.m in Sources */,
+				2747DF0517B6FC92009630D1 /* FLLog.m in Sources */,
+				2747DEFC17B6FC92009630D1 /* FLConsoleLogSink.m in Sources */,
+				2747DF3217B6FC92009630D1 /* FLTrace.m in Sources */,
+				2747DF2917B6FC92009630D1 /* FLPrintf.m in Sources */,
+				2747DF1717B6FC92009630D1 /* FLLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27E9CF99175E4A4200BD6205 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27A43AB315CDCC89001CB13E /* FishLampLogger-iOS-ARC */;
+			targetProxy = 27E9CF98175E4A4200BD6205 /* PBXContainerItemProxy */;
+		};
+		27E9CF9B175E4A4200BD6205 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27048B70161CB58600C38ADA /* FishLampLogger-OSX-32-MRC */;
+			targetProxy = 27E9CF9A175E4A4200BD6205 /* PBXContainerItemProxy */;
+		};
+		27E9CF9D175E4A4200BD6205 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27A43AC315CDCCCB001CB13E /* FishLampLogger-OSX-64-MRC */;
+			targetProxy = 27E9CF9C175E4A4200BD6205 /* PBXContainerItemProxy */;
+		};
+		27E9CF9F175E4A4200BD6205 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 273148B9165328400027850D /* FishLampLogger-OSX-64-ARC */;
+			targetProxy = 27E9CF9E175E4A4200BD6205 /* PBXContainerItemProxy */;
+		};
+		27E9CFA1175E4A4200BD6205 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27CBBE2916768BA600753D0A /* FishLampLogger-OSX-Universal-MRC */;
+			targetProxy = 27E9CFA0175E4A4200BD6205 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		27048EEC161CB58600C38ADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27C62DCC170B537B0093F260 /* FishLampLoggerTargetSettings-OSX-32-MRC.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		27048EEE161CB58600C38ADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27C62DCC170B537B0093F260 /* FishLampLoggerTargetSettings-OSX-32-MRC.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		27314C76165328400027850D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27C62DCF170B537B0093F260 /* FishLampLoggerTargetSettings-OSX-64-ARC.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		27314C77165328400027850D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27C62DCF170B537B0093F260 /* FishLampLoggerTargetSettings-OSX-64-ARC.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		27A43A8B15CDCC1B001CB13E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27C7A8A717B6CF2800A83CE2 /* ProjectSettingsDebug.xcconfig */;
+			buildSettings = {
+				MACH_O_TYPE = staticlib;
+			};
+			name = Debug;
+		};
+		27A43A8C15CDCC1B001CB13E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27C7A8A817B6CF2800A83CE2 /* ProjectSettingsRelease.xcconfig */;
+			buildSettings = {
+				MACH_O_TYPE = staticlib;
+			};
+			name = Release;
+		};
+		27A43ABE15CDCC89001CB13E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27C62DD1170B537B0093F260 /* FishLampLoggerTargetSettings-OSX-iOS-ARC.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		27A43ABF15CDCC89001CB13E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27C62DD1170B537B0093F260 /* FishLampLoggerTargetSettings-OSX-iOS-ARC.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		27A43ACD15CDCCCB001CB13E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27C62DD0170B537B0093F260 /* FishLampLoggerTargetSettings-OSX-64-MRC.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		27A43ACE15CDCCCB001CB13E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27C62DD0170B537B0093F260 /* FishLampLoggerTargetSettings-OSX-64-MRC.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		27CBC1F216768BA600753D0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27C62DCE170B537B0093F260 /* FishLampLoggerTargetSettings-OSX-Universal-MRC.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		27CBC1F316768BA600753D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27C62DCE170B537B0093F260 /* FishLampLoggerTargetSettings-OSX-Universal-MRC.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		27E9CF95175E4A3600BD6205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		27E9CF96175E4A3600BD6205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27048EEB161CB58600C38ADA /* Build configuration list for PBXNativeTarget "FishLampLogger-OSX-32-MRC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27048EEC161CB58600C38ADA /* Debug */,
+				27048EEE161CB58600C38ADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27314C75165328400027850D /* Build configuration list for PBXNativeTarget "FishLampLogger-OSX-64-ARC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27314C76165328400027850D /* Debug */,
+				27314C77165328400027850D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27A43A7615CDCC1B001CB13E /* Build configuration list for PBXProject "FishLampLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27A43A8B15CDCC1B001CB13E /* Debug */,
+				27A43A8C15CDCC1B001CB13E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27A43ABD15CDCC89001CB13E /* Build configuration list for PBXNativeTarget "FishLampLogger-iOS-ARC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27A43ABE15CDCC89001CB13E /* Debug */,
+				27A43ABF15CDCC89001CB13E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27A43ACC15CDCCCB001CB13E /* Build configuration list for PBXNativeTarget "FishLampLogger-OSX-64-MRC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27A43ACD15CDCCCB001CB13E /* Debug */,
+				27A43ACE15CDCCCB001CB13E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27CBC1F116768BA600753D0A /* Build configuration list for PBXNativeTarget "FishLampLogger-OSX-Universal-MRC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27CBC1F216768BA600753D0A /* Debug */,
+				27CBC1F316768BA600753D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27E9CF97175E4A3600BD6205 /* Build configuration list for PBXAggregateTarget "FishLampLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27E9CF95175E4A3600BD6205 /* Debug */,
+				27E9CF96175E4A3600BD6205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27A43A7315CDCC1B001CB13E /* Project object */;
+}

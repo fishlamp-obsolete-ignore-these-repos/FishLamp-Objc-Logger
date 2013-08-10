@@ -8,7 +8,7 @@
 //
 
 #import "FLLogEntry.h"
-#import "FLAssertions.h"
+//#import "FLAssertions.h"
 
 @interface FLLogEntry () 
 @property (readwrite, strong, nonatomic) NSString* logName;

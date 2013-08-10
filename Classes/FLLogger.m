@@ -9,9 +9,7 @@
 
 #import "FLLogger.h"
 #import <objc/runtime.h>
-#import "FLStringFormatter.h"
 #import "FLLogEntry.h"
-#import "FLAssertions.h"
 #import "FLLogSink.h"
 
 @interface FLLogger()

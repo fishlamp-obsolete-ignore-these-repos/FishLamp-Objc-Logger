@@ -8,7 +8,6 @@
 //
 
 #import "FLLogSink.h"
-#import "FLPrettyString.h"
 
 @implementation FLLogSink
 
