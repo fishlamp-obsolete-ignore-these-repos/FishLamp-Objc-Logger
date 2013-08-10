@@ -174,6 +174,7 @@
 		2747DF5117B6FCD8009630D1 /* FishLampTargetSettings-OSX-64-ARC.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "FishLampTargetSettings-OSX-64-ARC.xcconfig"; sourceTree = "<group>"; };
 		2747DF5217B6FCD8009630D1 /* FishLampTargetSettings-OSX-64-MRC.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "FishLampTargetSettings-OSX-64-MRC.xcconfig"; sourceTree = "<group>"; };
 		2747DF5317B6FCD8009630D1 /* FishLampTargetSettings-OSX-Universal-MRC.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "FishLampTargetSettings-OSX-Universal-MRC.xcconfig"; sourceTree = "<group>"; };
+		2747DF5D17B6FF5D009630D1 /* install-headers.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = "install-headers.sh"; path = "FishLampXcodeConfigs/install-headers.sh"; sourceTree = "<group>"; };
 		27A43AB415CDCC89001CB13E /* libFishLampLogger-iOS-ARC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libFishLampLogger-iOS-ARC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27A43AC415CDCCCB001CB13E /* libFishLampLogger-OSX-64-MRC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libFishLampLogger-OSX-64-MRC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27C62DCC170B537B0093F260 /* FishLampLoggerTargetSettings-OSX-32-MRC.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "FishLampLoggerTargetSettings-OSX-32-MRC.xcconfig"; sourceTree = "<group>"; };
@@ -229,6 +230,7 @@
 		2731477B1652D2D30027850D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2747DF5D17B6FF5D009630D1 /* install-headers.sh */,
 				27C7A8A717B6CF2800A83CE2 /* ProjectSettingsDebug.xcconfig */,
 				27C7A8A817B6CF2800A83CE2 /* ProjectSettingsRelease.xcconfig */,
 				27C62DCB170B537B0093F260 /* FishLampLogger */,
