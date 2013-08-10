@@ -7,7 +7,7 @@
 //  The FishLamp Framework is released under the MIT License: http://fishlamp.com/license 
 //
 
-#import "FLCoreRequired.h"
+#import <FishLampCore/FishLampCore.h>
 
 extern void FLPrintFormatWithIndent(NSUInteger indent, NSString* format, ...);
 extern void FLPrintFormat(NSString* format, ...);

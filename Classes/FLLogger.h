@@ -7,8 +7,8 @@
 //  The FishLamp Framework is released under the MIT License: http://fishlamp.com/license 
 //
 
-#import "FLCoreRequired.h"
-#import "FLStringFormatter.h"
+#import <FishLampCore/FishLampCore.h>
+#import <FishLampCore/FLStringFormatter.h>
 
 #define FLLogTypeNone       nil
 #define FLLogTypeLog        @"com.fishlamp.log"
