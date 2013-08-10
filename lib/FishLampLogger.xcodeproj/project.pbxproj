@@ -89,6 +89,10 @@
 		2747DF3017B6FC92009630D1 /* FLTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = 2747DEF317B6FC92009630D1 /* FLTrace.m */; };
 		2747DF3117B6FC92009630D1 /* FLTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = 2747DEF317B6FC92009630D1 /* FLTrace.m */; };
 		2747DF3217B6FC92009630D1 /* FLTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = 2747DEF317B6FC92009630D1 /* FLTrace.m */; };
+		2747E09517B70266009630D1 /* FishLampLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 2747E09417B70266009630D1 /* FishLampLogger.h */; };
+		2747E09617B70266009630D1 /* FishLampLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 2747E09417B70266009630D1 /* FishLampLogger.h */; };
+		2747E09717B70266009630D1 /* FishLampLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 2747E09417B70266009630D1 /* FishLampLogger.h */; };
+		2747E09817B70266009630D1 /* FishLampLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 2747E09417B70266009630D1 /* FishLampLogger.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -175,6 +179,7 @@
 		2747DF5217B6FCD8009630D1 /* FishLampTargetSettings-OSX-64-MRC.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "FishLampTargetSettings-OSX-64-MRC.xcconfig"; sourceTree = "<group>"; };
 		2747DF5317B6FCD8009630D1 /* FishLampTargetSettings-OSX-Universal-MRC.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "FishLampTargetSettings-OSX-Universal-MRC.xcconfig"; sourceTree = "<group>"; };
 		2747DF5D17B6FF5D009630D1 /* install-headers.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = "install-headers.sh"; path = "FishLampXcodeConfigs/install-headers.sh"; sourceTree = "<group>"; };
+		2747E09417B70266009630D1 /* FishLampLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FishLampLogger.h; sourceTree = "<group>"; };
 		27A43AB415CDCC89001CB13E /* libFishLampLogger-iOS-ARC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libFishLampLogger-iOS-ARC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27A43AC415CDCCCB001CB13E /* libFishLampLogger-OSX-64-MRC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libFishLampLogger-OSX-64-MRC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27C62DCC170B537B0093F260 /* FishLampLoggerTargetSettings-OSX-32-MRC.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "FishLampLoggerTargetSettings-OSX-32-MRC.xcconfig"; sourceTree = "<group>"; };
@@ -255,6 +260,7 @@
 				2747DEF117B6FC92009630D1 /* FLPrintf.m */,
 				2747DEF217B6FC92009630D1 /* FLTrace.h */,
 				2747DEF317B6FC92009630D1 /* FLTrace.m */,
+				2747E09417B70266009630D1 /* FishLampLogger.h */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -379,6 +385,7 @@
 			files = (
 				2747DEF417B6FC92009630D1 /* FLConsoleLogSink.h in Headers */,
 				2747DF2A17B6FC92009630D1 /* FLTrace.h in Headers */,
+				2747E09517B70266009630D1 /* FishLampLogger.h in Headers */,
 				2747DF1817B6FC92009630D1 /* FLLogSink.h in Headers */,
 				2747DEFD17B6FC92009630D1 /* FLLog.h in Headers */,
 				2747DF2117B6FC92009630D1 /* FLPrintf.h in Headers */,
@@ -393,6 +400,7 @@
 			files = (
 				2747DEF617B6FC92009630D1 /* FLConsoleLogSink.h in Headers */,
 				2747DF2C17B6FC92009630D1 /* FLTrace.h in Headers */,
+				2747E09717B70266009630D1 /* FishLampLogger.h in Headers */,
 				2747DF1A17B6FC92009630D1 /* FLLogSink.h in Headers */,
 				2747DEFF17B6FC92009630D1 /* FLLog.h in Headers */,
 				2747DF2317B6FC92009630D1 /* FLPrintf.h in Headers */,
@@ -407,6 +415,7 @@
 			files = (
 				2747DEF517B6FC92009630D1 /* FLConsoleLogSink.h in Headers */,
 				2747DF2B17B6FC92009630D1 /* FLTrace.h in Headers */,
+				2747E09617B70266009630D1 /* FishLampLogger.h in Headers */,
 				2747DF1917B6FC92009630D1 /* FLLogSink.h in Headers */,
 				2747DEFE17B6FC92009630D1 /* FLLog.h in Headers */,
 				2747DF2217B6FC92009630D1 /* FLPrintf.h in Headers */,
@@ -421,6 +430,7 @@
 			files = (
 				2747DEF717B6FC92009630D1 /* FLConsoleLogSink.h in Headers */,
 				2747DF2D17B6FC92009630D1 /* FLTrace.h in Headers */,
+				2747E09817B70266009630D1 /* FishLampLogger.h in Headers */,
 				2747DF1B17B6FC92009630D1 /* FLLogSink.h in Headers */,
 				2747DF0017B6FC92009630D1 /* FLLog.h in Headers */,
 				2747DF2417B6FC92009630D1 /* FLPrintf.h in Headers */,
